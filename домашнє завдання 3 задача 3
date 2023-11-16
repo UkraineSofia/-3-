@@ -1,0 +1,8 @@
+a=int(input("Введіть трьох значне число "))
+d=int(input("Введіть трьох значне число "))
+c=0
+b=0
+for elem in range(a,d):
+    print(b+elem)
+    c=c+elem
+print(c)

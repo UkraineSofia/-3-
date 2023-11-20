@@ -1,0 +1,5 @@
+a = float(input("Введіть ціну 1 кг цукерок: "))
+for i in range(1, 11):
+   weight = i
+   cost = weight * a
+   print(f"{weight} кг цукерок коштують {cost:.2f} грн")

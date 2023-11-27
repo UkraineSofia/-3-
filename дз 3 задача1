@@ -1,0 +1,8 @@
+a = float(input("Введіть вік Міті: "))
+b = float(input("Введіть вік Тетянки: "))
+c= (a+b)/2
+print (c)
+w=a-c
+print(w)
+d=b-c
+print(d)
